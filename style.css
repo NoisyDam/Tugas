@@ -198,6 +198,16 @@ body {
   );
 }*/
 
+.hero .mask-container {
+  position: absolute;
+  /* background: blue; */
+  inset: 0;
+  -webkit-mask-image: url("img/foto_kopi-removebg-preview.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  -webkit-mask-position: center;
+}
+
 .hero .content {
   padding: 1.4rem 7%;
   /*max-width: 60rem;*/
